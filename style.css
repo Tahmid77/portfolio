@@ -107,6 +107,9 @@ main::after{
     border-image: linear-gradient( 180deg,blue,cyan);
     border-image-slice: 1;
 }
+.intro{
+    color: gray;
+}
 .title{
     position: relative;
     left: 6%;
@@ -190,6 +193,9 @@ main::after{
       display: flex;
       justify-content: space-between;
       align-items: center;
+  }
+  .skill h2{
+      font-weight: 400;
   }
   .logo-container{
       width: 30px;
