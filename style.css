@@ -93,11 +93,17 @@ main::after{
 }
 #pro{
     height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
+/* #pro section{
+    max-width: 500px;
+} */
 .pro{
     min-height: 280px;
     border-left: 8px solid;
     background-color: honeydew;
+    width: 80%;
 }
 #pro1{
     border-image: linear-gradient( 180deg,rgb(231, 163, 61),rgb(221, 83, 28));
